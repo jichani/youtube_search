@@ -1,0 +1,21 @@
+#results {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#results div {
+  margin-right: 100px;
+}
+
+#results div:nth-child(4) {
+  margin-left: 120px;
+}
+
+.result {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
